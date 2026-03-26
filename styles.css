@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1509395176047-4a66953fd231') no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h1 {
+    font-size: 3em;
+}
+
+.overlay button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background: #f4b400;
+    cursor: pointer;
+}
+
+/* NAV */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px;
+}
+
+.dark {
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
